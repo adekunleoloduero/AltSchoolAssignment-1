@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="nav">
+        <section class="top-right-nav">
+          <nav>
+            <ul>
+              <li><a href="index.html">About Me</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="register.html">Register</a></li>
+                  <li><a href="login.html">Login</a></li>
+                  <li><a href="table_calculator.html"><span class="calc">CALCULATOR</span></a></li>
+            </ul>
+          </nav>
+        </section>
+    </div>
+    
+    <main>
+        <div class="contact-container">
+            <form action="#" method="#">
+                <h2 class="form-header">Leave a Message</h2><hr class="form-rule">
+                <div class="form-item">
+                    <label for="name">Name</label> <span style="color: red !important; display: inline; float: none;">*</span><br>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-item">
+                    <label for="email">Email</label> <span style="color: red !important; display: inline; float: none;">*</span><br>
+                    <input type="email" id="email" name="email" required> 
+                </div>
+                <div class="form-item">
+                    <label for="message">Message</label><br>
+                    <textarea name="message" id="message" class="msg-box" cols="53;" rows="10" placeholder="Your Messagge..."></textarea>
+                </div>
+                <div class="form-item">
+                    <label for="priority">Priority</label>
+                    <select name="priority" id="priority">
+                        <option value="casual">Casual</option>
+                        <option value="urgent">Urgent</option>
+                        <option value="important">Important</option>
+                    </select>
+                </div>
+                <div class="form-item">
+                    <input type="submit" value="Send" id="send-message" name="send-message">
+                </div>
+            </form>
+        </div>
+    </main>
+    <div class="extra-bottom-space"></div>
+</body>
+</html>

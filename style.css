@@ -1,0 +1,285 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: grey;
+    font-size: 0.9em;
+}
+
+
+#my-name {
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav {
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 248, 0.644);
+}
+
+
+.top {
+    margin-top: 30px;
+}
+
+.mid {
+    display: flex;
+    padding-right: 80px;
+    margin-top: 50px;
+    margin-left: 40px;
+    color: black;
+}
+
+.left {
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+    border-radius: 10px;
+    padding-bottom:  20px;
+}
+
+
+.right {
+    width: 30%;
+    background-color: rgba(0, 0, 248, 0.644);
+    border-radius: 10px;
+    height: fit-content;
+    color: white;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: black;
+}
+
+nav ul li a:hover {
+    border-top: 2px solid black;
+}
+
+/*Navigation*/
+nav ul li {
+    display: inline;
+    padding: 15px;
+}
+
+.top-right-nav {
+    width: 100%;
+    
+}
+
+nav {
+  padding-bottom: 10px;
+}
+
+nav ul {
+  width: 45%;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 0;
+}
+
+
+.square-type-list li {
+    list-style-type: square;
+}
+
+/* About Me */
+
+.about-me, .goal, .education, .job-experience, .hobbies_and_skills {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.about-me {
+    width: 80%;
+}
+
+.name {
+    border-right: 2px solid rgba(0, 0, 248, 0.644);
+    margin-right: 10px;
+    width: 50%;
+}
+
+
+.about-me-container {
+    display: flex;
+}
+
+.about-me-container img {
+    margin-right: 50px;
+    border-radius: 100%;
+}
+
+/* Goal */
+.goals {
+    width: 50%;
+    
+}
+
+
+/*Education */
+.education {
+    margin-top: 90px;
+    width: 80%;
+}
+.education-container {
+    display: flex;
+    justify-content: center;
+}
+
+/*Job Experience */
+.job-experience {
+    margin-top: 70px;
+    width: 80%;
+}
+
+.job-experience-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.edu-1, .job-1 {
+    border-right: 2px solid rgba(0, 0, 248, 0.644);
+}
+
+.jobs, .edu {
+    padding: 10px;
+}
+
+.hobbies_and_skills {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 80%;
+}
+
+
+.extra-bottom-space {
+    margin-bottom: 50px;
+}
+
+/* .card {  
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 0.1px;
+    padding: 20px;
+} */
+
+
+.normal-underline {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1); ;
+} 
+
+.blue-underline {
+    border-bottom: 2px solid rgba(0, 0, 248, 0.644) !important;
+}
+
+.calc {
+    font-size: 14px;
+}
+
+
+/*Forms */
+.form-item {
+    padding: 10px;
+}
+
+.form-rule {
+    border: 2px dashed rgba(0, 0, 0, 0.2);
+    margin-top: 40px;
+}
+
+form {
+    width: 35%;
+    margin: 0 auto;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 0 20px 40px 20px;
+    margin-top: 30px;
+}
+
+input {
+    padding: 8px;
+    width: 100%;
+    margin: auto;
+}
+
+.form-header {
+    color: rgba(0, 0, 248, 0.644);
+    text-align: center;
+    font-size: 32px;
+    font-family: cursive;
+}
+
+input[type="submit"] {
+    background-color: rgba(0, 0, 248, 0.644);
+    border: none;
+    /*border-radius: 5px;*/
+    padding: 8px;
+    width: fit-content;
+    float: right;
+    margin-right: 3px;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background-color: white;
+    border: 2px solid rgba(0, 0, 248, 0.644);
+    /*border-radius: 5px;*/
+    color: black;
+}
+
+
+/*Located at bottom of sign up form */
+.sign-in {
+    color: black;
+}
+
+.sign-in:hover {
+    color: rgba(0, 0, 248, 0.644);
+}
+
+.darker {
+    font-weight: bold;
+}
+
+
+#message {
+    resize: none;
+    max-width: 100%;
+}
+
+#country {
+  resize: none;
+  max-width: 100%;
+}
+
+#gender {
+  resize: none;
+  max-width: 100%;
+}
